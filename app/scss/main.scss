@@ -397,11 +397,11 @@ hr {
 }
 
 .metodic-section {
-	height: 380px;
 	background-image: url('../img/Frame-1.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
+	padding: 60px 0;
 }
 
 .circle-acquainted {
@@ -560,10 +560,9 @@ section.article {
 //styles for infocourses
 
 
-// .infocourses{
-// 	background: #EBF6FF;
-// 	height: 500px;
-// }
+.infocourses{
+	padding: 60px 0;
+}
 .courses-title {
 	width: 648px;
 	height: 129px;
@@ -666,7 +665,7 @@ section.article {
 
 //styles for result
 .result {
-	height: 557px;
+	padding: 60px 0;
 	background-color: #ebf6ff;
 
 
