@@ -420,38 +420,13 @@ hr {
 }
 
 .metodic-section {
-	height: 380px;
 	background-image: url('../img/Frame-1.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
+	padding: 60px 0;
 }
 
-.circle-acquainted {
-	border-radius: 37px;
-	background: #00C1EB;
-	display: flex;
-	margin-left: 355px;
-
-	.acquainted-icon {
-		position: absolute;
-		background: #00c1eb;
-		box-shadow: 0 0 4px rgb(19 27 63 / 25%);
-		display: block;
-		padding: 3px;
-		border-radius: 50%;
-		margin-left: -79px;
-	}
-
-	.acquainted-text {
-		font-family: 'Montserrat', sans-serif;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 16px;
-		margin-left: 79px;
-		color: #ebf6ff;
-	}
-}
 
 
 .acquainted-text:hover {
@@ -462,20 +437,22 @@ hr {
 
 
 .circle-originals {
-
 	border-radius: 37px;
 	background: #00C1EB;
-	display: flex;
-	margin-top: 27px;
-	margin-left: 356px;
+	display: block;
+	margin-bottom: 27px;
+	position: relative;
+	text-align: center;
+	color: #fff;
 
-	.originals-text {
-		font-family: 'Montserrat', sans-serif;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 16px;
-		margin-left: 71px;
-		color: #ebf6ff;
+	img {
+		position: absolute;
+		left: 0;
+		width: 24px;
+		top: 0;
+		padding: 4px;
+		box-shadow: 1px 1px 1px rgba(0,0,0,.7);
+		border-radius: 50%;
 	}
 }
 
@@ -535,7 +512,7 @@ section.article {
 	width: 263px;
 	height: 268px;
 	background: white;
-
+	transition: .3s all;
 	background: #FFFFFF;
 	box-shadow: 2px 4px 7px rgba(19, 27, 63, 0.15);
 	border-radius: 37px;
@@ -545,9 +522,10 @@ section.article {
 	padding-left: 14px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 600;
-	font-size: 14px;
+	font-weight: bold;
+	font-size: 16px;
 	color: #131B3F;
+	display: block;
 }
 
 .article-text {
@@ -563,19 +541,20 @@ section.article {
 }
 
 .info {
-
+	position: relative;
 	margin-top: 166px;
 	background: #fff;
 	border-radius: 37px;
 	width: 263px;
-	height: 220px;
+	height: 260px;
+	padding-top: 20px;
+	transition: .3s all;
 }
 
 .info:hover {
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
-	transition: 0.6s
 }
 
 .article-link {
@@ -586,15 +565,16 @@ section.article {
 	font-size: 14px;
 	line-height: 15px;
 	color: #00C1EB;
+	position: absolute;
+	bottom: 20px;
 }
 
 //styles for infocourses
 
 
-// .infocourses{
-// 	background: #EBF6FF;
-// 	height: 500px;
-// }
+.infocourses{
+	padding: 60px 0;
+}
 .courses-title {
 	width: 648px;
 	height: 129px;
@@ -699,7 +679,7 @@ section.article {
 
 //styles for result
 .result {
-	height: 557px;
+	padding: 60px 0;
 	background-color: #ebf6ff;
 
 
