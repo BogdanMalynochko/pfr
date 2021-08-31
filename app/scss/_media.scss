@@ -5,6 +5,9 @@
 
 // ≥1200px
 @include media-breakpoint-down(lg) {
+    .article-section {
+        height: auto;
+    }
 	
 }
 
@@ -15,7 +18,9 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
-
+    .h1 {
+        font-size: 10px;
+    }
 }
 
 // ≥576px

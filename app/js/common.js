@@ -18,3 +18,15 @@ $('.slider-wrapper').slick({
       fixedContentPos: false
     });
   });
+
+  $(document).ready(function() {
+    $('.default-link').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+  
+      fixedContentPos: false
+    });
+  });
