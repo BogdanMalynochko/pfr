@@ -10,12 +10,12 @@
 
 // ≥992px
 @include media-breakpoint-down(md) {
-
+    
 }
 
 // ≥768px
 @include media-breakpoint-down(sm) {
-
+   
 }
 
 // ≥576px
@@ -28,7 +28,7 @@
 
 // ≤576px
 @include media-breakpoint-up(sm) {
-
+    
 }
 
 // ≤768px
@@ -38,7 +38,7 @@
 
 // ≤992px
 @include media-breakpoint-up(lg) {
-
+    
 }
 
 // ≤1200px

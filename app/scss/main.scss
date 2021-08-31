@@ -21,7 +21,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
 	color: $text;
-
+	padding: 0%;
+	margin: 0%;
 	input,
 	textarea {
 		border: #666 1px solid;
@@ -1015,7 +1016,7 @@ footer {
 		font-weight: 100;
 	}
 
-	
+
 }
 
 .footer-contacts:hover {
