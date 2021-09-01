@@ -222,8 +222,7 @@ i {
 
 .beloved-text {
 	font-family: 'Montserrat', sans-serif;
-	width: 546px;
-	height: 71px;
+	
 	margin-top: 20px;
 	font-style: normal;
 	font-weight: 100;
@@ -238,8 +237,18 @@ strong {
 i {
 	color: white;
 }
-
+ .slide-styles{
+	width: 100%;
+    height: 320px;
+    background: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
+    box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
+    border-radius: 37px;
+ }
 .slide-price {
+	
 	margin-left: 20px;
 	margin-top: 21px;
 	font-family: 'Montserrat', sans-serif;
@@ -387,6 +396,7 @@ hr {
 }
 
 .slide-price2 {
+	position: absolute;
 	width: 90px;
 	height: 18px;
 	margin-left: 20px;
@@ -451,7 +461,7 @@ hr {
 		width: 24px;
 		top: 0;
 		padding: 4px;
-		box-shadow: 1px 1px 1px rgba(0,0,0,.7);
+		box-shadow: 0 0 4px rgb(19 27 63 / 25%);
 		border-radius: 50%;
 	}
 }
@@ -466,9 +476,9 @@ hr {
 	margin-left: -68px;
 }
 
-.originals-text:hover {
+.circle-originals:hover {
 	color: rgb(79, 106, 226);
-	transition: 0.8s;
+	transition: 1s;
 }
 
 #learn-info {
@@ -565,7 +575,7 @@ section.article {
 	font-size: 14px;
 	line-height: 15px;
 	color: #00C1EB;
-	position: absolute;
+
 	bottom: 20px;
 }
 
@@ -576,8 +586,7 @@ section.article {
 	padding: 60px 0;
 }
 .courses-title {
-	width: 648px;
-	height: 129px;
+	
 	margin-top: 52px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -596,7 +605,6 @@ section.article {
 	font-size: 14px;
 	line-height: 17px;
 	color: #131B3F;
-	margin-top: -38px;
 
 }
 
