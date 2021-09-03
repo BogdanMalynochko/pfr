@@ -4,10 +4,7 @@
 /*==========  Desktop First  ==========*/
 
 // ≥1200px
-@include media-breakpoint-down(lg) {
-
-	
-}
+@include media-breakpoint-down(lg) {}
 
 // ≥992px
 @include media-breakpoint-down(md) {
@@ -17,73 +14,88 @@
         line-height: 20px;
         margin-left: -10px;
     }
-    .h1-metodica{
+
+    .h1-metodica {
         margin-left: 10px;
     }
-    .beloved-text{
+
+    .beloved-text {
         text-align: center;
-   }
-   .circle-video{
-       margin-left: 289px;
-       margin-top: 30px;
-   }
-   .socials-container{
-    margin-left: 289px;
-}
-    .slider-wrapper{
-        left: 100px;
     }
 
-    .metodic-section{
+    .circle-video {
+        margin-left: 289px;
+        margin-top: 30px;
+    }
+
+    .socials-container {
+        margin-left: 289px;
+    }
+
+    // .slider-wrapper {
+    //     left: 100px;
+    // }
+        .slide-styles{
+            width: 701px;
+        }
+    .metodic-section {
         margin-top: 130px;
         margin-left: 170px;
-        
     }
+
     .info {
         margin-top: 45px;
         height: 230px;
         margin-left: 228px;
     }
 
-    .h2-main{
+    .h2-main {
         font-size: 30px;
         padding-top: 0px;
         margin-left: 40px;
     }
-    .article-title{
+
+    .article-title {
         padding-left: 40;
         text-align: center;
     }
-    .article-text{
+
+    .article-text {
         text-align: center;
         margin-top: 10px;
     }
-    .article-link{
+
+    .article-link {
         margin-left: 20px;
     }
+
     .article-section {
         height: 1137px;
         background: #00c1eb;
     }
-    .circle-originals{
+
+    .circle-originals {
         margin-right: 180px;
     }
 
-   
-    .courses-title{
+
+    .courses-title {
         font-size: 22px;
         margin-top: -45px;
         line-height: 32px;
         text-align: center;
     }
-    .purpose-courses{
+
+    .purpose-courses {
         margin-top: 0px;
         text-align: center;
     }
+
     .courses-text {
         margin-left: 256px;
     }
-    .result .white-box{
+
+    .result .white-box {
         background: 0 0;
         border-radius: 0%;
         box-shadow: none;
@@ -94,25 +106,40 @@
 
 
 
-    footer{
+    footer {
         padding: 60px 0;
     }
-    .footer-img{
+
+    .footer-img {
         margin-left: 322px;
         margin-top: 10px;
     }
-    .btn-footer{
+
+    .btn-footer {
         margin-left: 310px;
     }
-    .big-menu{
+
+    .big-menu {
         margin-left: -23px;
         margin-top: 60px;
         text-align: center;
     }
 
 
-    
-    .img-top, .img-diplom, .img-portret, .img-right,.img-bottom, .img-left, .i-re,.box-btn1, .box-btn2, .btn-popup, .socials, .footer-title, .menu_container{
+
+    .img-top,
+    .img-diplom,
+    .img-portret,
+    .img-right,
+    .img-bottom,
+    .img-left,
+    .i-re,
+    .box-btn1,
+    .box-btn2,
+    .btn-popup,
+    .socials,
+    .footer-title,
+    .menu_container {
         display: none;
     }
 }
@@ -126,87 +153,121 @@
         margin-left: 0px;
     }
 
-    .beloved-text{
-         text-align: center;
+    .beloved-text {
+        text-align: center;
     }
-    .circle-video{
+
+    .circle-video {
         margin-left: 90px;
         margin-top: 30px;
     }
-    .socials-container{
+
+    .socials-container {
         margin-left: 90px;
     }
-    .slider-wrapper{
-        right: 0px;
-    }
-    .slide-period2{
+
+    // .slider-wrapper {
+    //     left: 30px;
+    // }
+
+    .slide-period2 {
         margin-left: 15px;
         margin-top: 10px;
     }
-    .slide-styles{
-        height: 339px;
+
+    .slide-styles {
         width: 100%;
+        height: 339px;
         margin-top: 15px;
     }
-    .slick-dots{
+
+    .slick-dots {
         margin: 10px;
         margin-bottom: 18px;
     }
-    .h1-metodica{
+
+    .h1-metodica {
         margin-left: -130px;
     }
+
     .about-matodica {
         margin-left: -130px;
     }
-    #learn-info{
+
+    #learn-info {
         margin-left: -130px;
         margin-top: 13px;
     }
-    .metodic-section{
+
+    .metodic-section {
         margin-top: 200px;
-        
+
     }
+
     .info {
         margin-top: 45px;
         width: 346px;
         height: 200px;
         margin-left: 0px;
     }
-    .h2-main{
+
+    .h2-main {
         font-size: 30px;
         padding-top: 0px;
     }
-    .article-title{
+
+    .article-title {
         padding-left: 0;
         text-align: center;
     }
-    .article-text{
+
+    .article-text {
         text-align: center;
-        
+
         margin-top: 10px;
     }
-    .article-link{
+
+    .article-link {
         bottom: 22px;
         margin-left: 121px;
     }
+
     .article-section {
         height: 1040px;
     }
-    .courses-title{
+
+    .courses-title {
         font-size: 22px;
         margin-top: -45px;
         line-height: 32px;
     }
-    .purpose-courses{
+
+    .purpose-courses {
         margin-top: 0px;
     }
+
     .courses-text {
         margin-left: 77px;
     }
-    .img-top, .img-diplom, .img-portret, .img-right,.img-bottom, .img-left, .i-re,.box-btn1, .box-btn2, .btn-popup, .socials, .footer-title, .menu_container, .circle-originals{
+
+    .img-top,
+    .img-diplom,
+    .img-portret,
+    .img-right,
+    .img-bottom,
+    .img-left,
+    .i-re,
+    .box-btn1,
+    .box-btn2,
+    .btn-popup,
+    .socials,
+    .footer-title,
+    .menu_container,
+    .circle-originals {
         display: none;
     }
-    .result .white-box{
+
+    .result .white-box {
         background: 0 0;
         border-radius: 0%;
         box-shadow: none;
@@ -214,17 +275,21 @@
         margin-left: -12px;
         width: 349px;
     }
-    footer{
+
+    footer {
         padding: 100px 0;
     }
-    .footer-img{
+
+    .footer-img {
         margin-left: 138px;
-        
+
     }
-    .btn-footer{
+
+    .btn-footer {
         margin-left: 128px;
     }
-    .big-menu{
+
+    .big-menu {
         margin-left: -23px;
         margin-top: 100px;
         text-align: center;
