@@ -23,6 +23,7 @@ body {
 	color: $text;
 	padding: 0%;
 	margin: 0%;
+
 	input,
 	textarea {
 		border: #666 1px solid;
@@ -222,7 +223,7 @@ i {
 
 .beloved-text {
 	font-family: 'Montserrat', sans-serif;
-	
+
 	margin-top: 20px;
 	font-style: normal;
 	font-weight: 100;
@@ -237,18 +238,20 @@ strong {
 i {
 	color: white;
 }
- .slide-styles{
+
+.slide-styles {
 	width: 100%;
-    height: 320px;
-    background: #fff;
-    margin-bottom: 20px;
-    position: relative;
-    -webkit-box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
-    box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
-    border-radius: 37px;
- }
+	height: 320px;
+	background: #fff;
+	margin-bottom: 20px;
+	position: relative;
+	-webkit-box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
+	box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
+	border-radius: 37px;
+}
+
 .slide-price {
-	
+
 	margin-left: 20px;
 	margin-top: 21px;
 	font-family: 'Montserrat', sans-serif;
@@ -497,7 +500,8 @@ hr {
 
 //styles for article
 .article-section {
-	height: 507px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background: #00C1EB;
 }
 
@@ -508,8 +512,7 @@ section.article {
 }
 
 .h2-main {
-	position: absolute;
-	padding-top: 72px;
+
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 600;
@@ -519,13 +522,14 @@ section.article {
 }
 
 .post-wrapper {
-	width: 263px;
 	height: 268px;
 	background: white;
 	transition: .3s all;
 	background: #FFFFFF;
 	box-shadow: 2px 4px 7px rgba(19, 27, 63, 0.15);
 	border-radius: 37px;
+	display: block;
+	margin-bottom: 20px;
 }
 
 .article-title {
@@ -550,13 +554,13 @@ section.article {
 	color: #131B3F;
 }
 
+.slick-slider {
+	padding-left: 0;
+}
+
 .info {
 	position: relative;
-	margin-top: 166px;
-	background: #fff;
 	border-radius: 37px;
-	width: 263px;
-	height: 260px;
 	padding-top: 20px;
 	transition: .3s all;
 }
@@ -582,11 +586,12 @@ section.article {
 //styles for infocourses
 
 
-.infocourses{
+.infocourses {
 	padding: 60px 0;
 }
+
 .courses-title {
-	
+
 	margin-top: 52px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -689,7 +694,7 @@ section.article {
 .result {
 	padding: 60px 0;
 	background-color: #ebf6ff;
-	
+
 	.white-box {
 		margin-top: 139px;
 		position: relative;
@@ -699,6 +704,7 @@ section.article {
 		box-shadow: 2px 4px 7px rgba(19, 27, 63, 0.15);
 		border-radius: 37px;
 	}
+
 	.h4 {
 		padding-top: 20px;
 		margin-left: 15px;
