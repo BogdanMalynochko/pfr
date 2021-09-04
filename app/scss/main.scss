@@ -23,7 +23,6 @@ body {
 	color: $text;
 	padding: 0%;
 	margin: 0%;
-
 	input,
 	textarea {
 		border: #666 1px solid;
@@ -141,9 +140,9 @@ a {
 	}
 }
 
-.banner {
-	height: 610px;
-}
+// .banner {
+// 	height: 610px;
+// }
 
 
 .has-submenu::after {
@@ -223,7 +222,7 @@ i {
 
 .beloved-text {
 	font-family: 'Montserrat', sans-serif;
-
+	
 	margin-top: 20px;
 	font-style: normal;
 	font-weight: 100;
@@ -239,19 +238,8 @@ i {
 	color: white;
 }
 
-.slide-styles {
-	width: 100%;
-	height: 320px;
-	background: #fff;
-	margin-bottom: 20px;
-	position: relative;
-	-webkit-box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
-	box-shadow: 2px 4px 7px rgb(19 27 63 / 15%);
-	border-radius: 37px;
-}
-
 .slide-price {
-
+	
 	margin-left: 20px;
 	margin-top: 21px;
 	font-family: 'Montserrat', sans-serif;
@@ -264,7 +252,7 @@ i {
 
 
 .circle-video {
-	width: 149px;
+	width: 37%;
 	height: 28px;
 	background: #00C1EB;
 	border-radius: 37px;
@@ -324,7 +312,7 @@ i {
 }
 
 .slide-styles {
-	width: 501px;
+
 	height: 295px;
 	margin-top: 64px;
 	background: #FFFFFF;
@@ -340,7 +328,9 @@ i {
 	padding-top: 18px;
 }
 
-
+.slick-slider{
+	padding-left: 0;
+}
 .slide-text1 {
 	margin-top: 25px;
 	font-size: 18px;
@@ -500,7 +490,7 @@ hr {
 
 //styles for article
 .article-section {
-	padding-top: 60px;
+	padding-top: 45px;
 	padding-bottom: 60px;
 	background: #00C1EB;
 }
@@ -512,7 +502,6 @@ section.article {
 }
 
 .h2-main {
-
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 600;
@@ -522,14 +511,14 @@ section.article {
 }
 
 .post-wrapper {
+	display: block;
 	height: 268px;
 	background: white;
 	transition: .3s all;
 	background: #FFFFFF;
 	box-shadow: 2px 4px 7px rgba(19, 27, 63, 0.15);
 	border-radius: 37px;
-	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .article-title {
@@ -554,13 +543,10 @@ section.article {
 	color: #131B3F;
 }
 
-.slick-slider {
-	padding-left: 0;
-}
-
 .info {
 	position: relative;
-	border-radius: 37px;
+	
+
 	padding-top: 20px;
 	transition: .3s all;
 }
@@ -586,12 +572,11 @@ section.article {
 //styles for infocourses
 
 
-.infocourses {
+.infocourses{
 	padding: 60px 0;
 }
-
 .courses-title {
-
+	
 	margin-top: 52px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -620,6 +605,7 @@ section.article {
 }
 
 .courses-text {
+	width: 50%;
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -629,11 +615,9 @@ section.article {
 	border-radius: 37px;
 	background: #00C1EB;
 	display: block;
-	max-width: 192px;
 	padding: 5px;
 	margin-top: 20px;
 	text-align: center;
-
 }
 
 
@@ -694,17 +678,12 @@ section.article {
 .result {
 	padding: 60px 0;
 	background-color: #ebf6ff;
-
 	.white-box {
-		margin-top: 139px;
 		position: relative;
-		width: 501px;
-		height: 275px;
 		background: #FFFFFF;
 		box-shadow: 2px 4px 7px rgba(19, 27, 63, 0.15);
 		border-radius: 37px;
 	}
-
 	.h4 {
 		padding-top: 20px;
 		margin-left: 15px;
@@ -900,10 +879,7 @@ footer {
 	}
 
 	.footer-logo {
-		margin-bottom: 23px;
 		display: block;
-		margin-top: -30px;
-		margin-left: -25px;
 	}
 
 	.btn-footer {
@@ -1042,9 +1018,6 @@ footer {
 	justify-content: space-evenly;
 	display: flex;
 	list-style-type: none;
-	left: 50px;
-
-	margin-top: 18px;
 
 	a {
 		color: #fff;

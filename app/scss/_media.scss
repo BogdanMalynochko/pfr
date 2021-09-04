@@ -4,7 +4,33 @@
 /*==========  Desktop First  ==========*/
 
 // ≥1200px
-@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(lg) {
+   
+    .col-md-12 {
+        width: 50%;
+    }
+    .courses-text{
+        width: 100%;
+    }
+
+    .img-top,
+    .img-diplom,
+    .img-portret,
+    .img-right,
+    .img-bottom,
+    .img-left,
+    .i-re,
+    .box-btn1,
+    .box-btn2,
+    .btn-popup,
+    .socials,
+    .footer-title,
+    .menu_container,
+    footer .btn-footer {
+        display: none;
+    }
+    
+}
 
 // ≥768px
 @include media-breakpoint-down(md) {
@@ -19,35 +45,28 @@
         margin-left: -10px;
     }
 
-    .h1-metodica {
-        margin-left: 10px;
-    }
-
     .beloved-text {
         text-align: center;
     }
 
     .circle-video {
-        margin-left: 289px;
+        width: 100%;
         margin-top: 30px;
     }
-
-    .socials-container {
-        margin-left: 289px;
+    .courses-text{
+        width: 100%;
     }
+
+
 
     // .slider-wrapper {
     //     left: 100px;
     // }
-    .slide-styles {
-        width: 701px;
-    }
+   
 
-    .metodic-section {
-        margin-top: 130px;
-        margin-left: 170px;
+    .metodic-section{
+        background-image: none;
     }
-
     .info {
         margin-top: 45px;
         height: 230px;
@@ -71,7 +90,7 @@
     }
 
     .article-link {
-        margin-left: 20px;
+        margin-left: 29px;
     }
 
     .circle-originals {
@@ -91,17 +110,13 @@
         text-align: center;
     }
 
-    .courses-text {
-        margin-left: 256px;
-    }
+   
 
     .result .white-box {
         background: 0 0;
         border-radius: 0%;
         box-shadow: none;
-        margin-top: -73px;
-        margin-left: 194px;
-        width: 349px;
+     
     }
 
 
@@ -110,10 +125,10 @@
         padding: 60px 0;
     }
 
-    .footer-img {
-        margin-left: 322px;
-        margin-top: 10px;
-    }
+    // .footer-img {
+    //     margin-left: 322px;
+    //     margin-top: 10px;
+    // }
 
     .btn-footer {
         margin-left: 310px;
@@ -139,9 +154,14 @@
     .btn-popup,
     .socials,
     .footer-title,
-    .menu_container {
+    .menu_container,
+    footer .btn-footer {
         display: none;
     }
+    .col-sm-6 {
+        width: 100%;
+    }
+  
 }
 
 // ≥768px
@@ -158,13 +178,11 @@
     }
 
     .circle-video {
-        margin-left: 90px;
+        width: 100%;
         margin-top: 30px;
     }
 
-    .socials-container {
-        margin-left: 90px;
-    }
+  
 
     // .slider-wrapper {
     //     left: 30px;
@@ -186,22 +204,9 @@
         margin-bottom: 18px;
     }
 
-    .h1-metodica {
-        margin-left: -130px;
-    }
-
-    .about-matodica {
-        margin-left: -130px;
-    }
-
     #learn-info {
-        margin-left: -130px;
+       
         margin-top: 13px;
-    }
-
-    .metodic-section {
-        margin-top: 200px;
-
     }
 
     .info {
@@ -229,12 +234,9 @@
 
     .article-link {
         bottom: 22px;
-        margin-left: 121px;
     }
 
-    .article-section {
-        height: 1040px;
-    }
+   
 
     .courses-title {
         font-size: 22px;
@@ -246,10 +248,7 @@
         margin-top: 0px;
     }
 
-    .courses-text {
-        margin-left: 77px;
-    }
-
+   
     .img-top,
     .img-diplom,
     .img-portret,
@@ -263,7 +262,8 @@
     .socials,
     .footer-title,
     .menu_container,
-    .circle-originals {
+    .circle-originals,
+    footer .btn-footer {
         display: none;
     }
 
@@ -271,19 +271,16 @@
         background: 0 0;
         border-radius: 0%;
         box-shadow: none;
-        margin-top: -73px;
-        margin-left: -12px;
-        width: 349px;
     }
 
     footer {
         padding: 100px 0;
     }
 
-    .footer-img {
-        margin-left: 138px;
+    // .footer-img {
+    //     margin-left: 138px;
 
-    }
+    // }
 
     .btn-footer {
         margin-left: 128px;
@@ -294,10 +291,14 @@
         margin-top: 100px;
         text-align: center;
     }
+   
+
 }
 
 // ≥576px
-@include media-breakpoint-down(xs) {}
+@include media-breakpoint-down(xs) {
+   
+}
 
 
 /*==========  Mobile First  ==========*/
@@ -312,4 +313,6 @@
 @include media-breakpoint-up(lg) {}
 
 // ≤1200px
-@include media-breakpoint-up(xl) {}
+@include media-breakpoint-up(xl) {
+    
+}
